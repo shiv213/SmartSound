@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/onsen/js/onsenui.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"/>
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-functions.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAXMY1AqeCDwIp_ImRxv6I9UT-iWc_Sjbo",
+            authDomain: "smartsound-fb58c.firebaseapp.com",
+            databaseURL: "https://smartsound-fb58c.firebaseio.com",
+            projectId: "smartsound-fb58c",
+            storageBucket: "smartsound-fb58c.appspot.com",
+            messagingSenderId: "97767602844",
+            appId: "1:97767602844:web:f84ac69adea32737"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script type="text/javascript" src="js/auth.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>SmartSound</title>
+</head>
+<body>
+<!--<div class="app">-->
+
+    <ons-page>
+        <h1 style="text-align: center">SmartSound</h1>
+        <div id="firebaseui-auth-container"></div>
+        <!--<div id="loader">Loading...</div>-->
+    </ons-page>
+<!--</div>-->
+</body>
+</html>
