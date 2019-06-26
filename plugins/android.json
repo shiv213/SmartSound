@@ -12,6 +12,22 @@
     },
     "cordova-plugin-browsersync": {
       "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.firebase.cordova",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "org.smartsound.smartsound"
     }
   },
   "dependent_plugins": {}

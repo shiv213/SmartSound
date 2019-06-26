@@ -9,7 +9,24 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.firebase.cordova",
+      "PACKAGE_NAME": "org.smartsound.smartsound"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "org.smartsound.smartsound"
+    }
+  }
 }

@@ -12,6 +12,7 @@
     ]
   },
   "hosting": {
+    "site": "smartsound",
     "public": "www",
     "ignore": [
       "firebase.json",

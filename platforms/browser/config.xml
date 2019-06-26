@@ -2,10 +2,10 @@
 <widget id="org.smartsound.smartsound" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SmartSound</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        SmartSound bundle client app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="shiv.v.trivedi@gmail.com" href="http://shiv.v.trivedi.com/">
+        Cameron Potter, Manavi Rao, &amp; Shiv Trivedi
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -15,4 +15,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <universal-links>
+        <host name="smartsound.web.app" scheme="https" />
+        <host name="http://smartsound-fb58c.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
+    <preference name="AndroidLaunchMode" value="singleTask" />
 </widget>
